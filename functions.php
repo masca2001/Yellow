@@ -12,6 +12,7 @@ function pdo_connect_mysql() {
     	exit('Failed to connect to database!');
     }
 }
+?>
 function template_header($title) {
 echo <<<EOT
 <!DOCTYPE html>
